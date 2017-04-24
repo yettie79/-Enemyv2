@@ -9,7 +9,19 @@ class CfgPatches
 		{
 			"Reich_Commander",
 			"Reich_Grenadier",
-			"Reich_Gunner"
+			"Reich_Gunner",
+			"Reich_AT_Rifleman",
+			"Reich_Heavy_MG",
+			"Reich_MM",
+			"Reich_Crew_Black",
+			"Reich_Commander_Black",
+			"SS_Commander",
+			"SS_Trooper_MG",
+			"SS_Trooper_EXP",
+			"SS_Trooper_MM",
+			"SS_Trooper_BR",
+			"SS_Commander"
+
 		}; 
         weapons[] = 
 		{
