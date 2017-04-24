@@ -1,13 +1,4 @@
-class CfgPatches 
-{ 
-    class the_fourth_reich
-    { 
-        units[] = {"Custom_Uniform_Mod";}; 
-        weapons[] = {}; 
-        requiredVersion = 0.1; 
- requiredAddons[] = {"a3_characters_F","a3_characters_F_beta", "A3_Characters_F_Common", "task_force_radio_items", "a3_characters_f_beta", "a3_characters_f_gamma","rhs_weapons","rhs_weapons2","rhs_weapons3","rhsusf_weapons","rhsusf_weapons2","rhsusf_weapons3","rhs_infantry","rhs_infantry2","rhsusf_infantry","rhsusf_infantry2","rhsgref_infantry","rhsgref_c_weapons"};
-    }; 
-}; 
+#include "cfgPatches.hpp"
 
 //************************************************************************************************************************************************************************************************
 //*****        Factions                  *********************************************************************************************************************************************************
