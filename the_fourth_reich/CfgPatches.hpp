@@ -1,3 +1,10 @@
+/*
+	Name: The_Fourth_Reich Mod
+	Author: Yettie
+	Date: 25/04/17
+	Description: CfgPatches.hpp
+*/
+
 class CfgPatches 
 { 
     class the_fourth_reich
