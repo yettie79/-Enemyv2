@@ -391,6 +391,24 @@ class cfgWeapons
         };
     };
 
+    class Nazi_Vest_desertTest: Vest_Camo_Base 
+    	{ 
+        scope = 2; 
+        displayName = "Nazi_Vest_desert test"; 	
+        picture = "-"; 
+        model = "A3\Characters_F_beta\INDEP\equip_ai_vest01"; 
+        hiddenSelections[] = {"Camo"}; 
+        hiddenSelectionsTextures[] = {"the_fourth_reich\Data\Nazi_Vest_desertTest.paa"}; 
+        class ItemInfo: VestItem 
+        { 
+            uniformModel = "A3\Characters_F_beta\INDEP\equip_ai_vest01.p3d"; 
+            containerClass = "Supply120"; 
+            mass = 80; 
+            armor = "5"; 
+            passThrough = 0.3; 
+            hiddenSelections[] = {"camo"}; 
+        };
+    };
 //************************************************************************************************************************************************************************************************
 //*****            Helmet              *********************************************************************************************************************************************************
 //************************************************************************************************************************************************************************************************
