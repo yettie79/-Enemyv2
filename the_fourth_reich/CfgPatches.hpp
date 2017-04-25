@@ -9,9 +9,9 @@ class CfgPatches
 { 
     class the_fourth_reich
     { 
-		author="160th SOR";
+		author="Yettie";
 		url="http://www.160th.net";
-		version="2.3.2";
+		version="0.0.3";
 		units[] = 
 		{
 			"Reich_Commander",
