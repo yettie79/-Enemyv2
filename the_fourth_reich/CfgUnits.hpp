@@ -50,7 +50,7 @@ class Reich_Commander: O_T_Recon_F
 	};
 };
 
-class Reich_Grenadier: O_T_Recon_F {
+class Reich_Grenadier: Reich_Commander {
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
