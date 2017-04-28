@@ -7,13 +7,21 @@
 
 /*
 
-class B_APC_Tracked_01_CRV_F;
+	class I_MBT_03_BASE_F;
+	class B_APC_Tracked_01_AA_F;
+	class MRAP_03_base_F;
+	class I_MRAP_03_F;
 
-class SOR_B_APC_Tracked_02 : B_APC_Tracked_01_CRV_F
+	class Nazi_MBT_Kuma: I_MBT_03_BASE_F 
 {
-//	editorCategory = "SOR_Cat_Faction_D";
-//	vehicleclass = "SOR_Vehicles";
-//	faction = SOR_Faction_D;
+		scope = 2;
+		_generalMacro = "I_MBT_03_cannon_F";
+		displayName = "Nazi MBT";
+		side = 0;
+		crew = "Reich_Crew_Black";
+		faction = "the_fourth_reich";
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret", "pasoffsetl", "pasoffsetp"};
+		hiddenSelectionsTextures[] = {"Enveh\data\TankBodyTexture.paa", "Enveh\data\TankTurretTexture.paa", "Enveh\data\TankTurretMGTexture.paa", "Enveh\data\TankTurretTexture.paa", "Enveh\data\TankTurretTexture.paa", "Enveh\data\TankTrackTexture.paa", "Enveh\data\TankTrackTexture.paa"};
 	class TransportItems
 	{
 	
@@ -31,5 +39,53 @@ class SOR_B_APC_Tracked_02 : B_APC_Tracked_01_CRV_F
 		
 	};
 };
+	class Nazi_AAA: B_APC_Tracked_01_AA_F
+{
+		scope=2;
+		displayName="reich AAA";
+		faction="the_fourth_reich";
+		crew="Reich_Crew_Black";
+		typicalCargo[]=	{"Reich_Crew_Black"};
+		side=0;
+		hiddenSelections[]=	{"camo1", "camo2",	"camo3"};
+		hiddenSelectionsTextures[]=	{"\Enveh\Data\nazi_aaa_body.paa", "\Enveh\Data\MBT_body.paa", "\Enveh\Data\Nazi_AA_Tower.paa"};
+		
+	class TransportWeapons
+	{
+	
+	};
+	class TransportMagazines
+	{
+		
+	};
+	class TransportBackpacks
+	{
+		
+	};
+};
+		class SS_Blitz: I_MRAP_03_F
+	{
+		scope=2;
+		_generalMacro = "I_MRAP_03_F";
+		displayName="SS Blitz";
+		faction="the_fourth_reich";
+		crew="Reich_Crew_Black";
+		typicalCargo[]=	{"Reich_Crew_Black"};
+		side=0;
+		vehicleClass="Car";
+		hiddenSelectionsTextures[]={"\Enveh\Data\SS_Striker.paa", "\Enveh\Data\SS_Turret.paa"};
+			class TransportWeapons
+	{
+	
+	};
+	class TransportMagazines
+	{
+		
+	};
+	class TransportBackpacks
+	{
+		
+	};
+	};
 
 */
