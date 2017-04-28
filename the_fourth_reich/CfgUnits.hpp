@@ -16,8 +16,8 @@ class Reich_Commander: O_T_Recon_F
 	identityTypes[] = {"Head_NATO", "G_NATO_default"}; 
 	genericNames = "NATOMen"; 
 	faction = "the_fourth_reich";
-	model = "\A3\characters_f_beta\INDEP\ia_soldier_01.p3d"; //Default NATO 
-	uniformClass = "Nazi_Uniform_desert"; 
+	model = "\A3\characters_f_beta\INDEP\ia_soldier_02.p3d"; //Default NATO 
+	uniformClass = "Nazi_Uniform_desert_SS"; 
 	hiddenSelections[] = {"Camo","Insignia"}; 
 	hiddenSelectionsTextures[] = {"the_fourth_reich\data\Nazi_Uniform_desert.paa"}; 
 	weapons[] = {"arifle_MX_ACO_pointer_F","hgun_Rook40_F","Binocular","Throw","Put"}; 
