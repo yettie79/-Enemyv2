@@ -5,8 +5,6 @@
 	Description: CfgArmour.hpp
 */
 
-
-
 class I_MBT_03_BASE_F;
 class B_APC_Tracked_01_AA_F;
 class MRAP_03_base_F;
@@ -37,8 +35,7 @@ class Nazi_MBT_Kuma: I_MBT_03_BASE_F
 		"the_fourth_reich\data\TankTurretTexture.paa",
 		"the_fourth_reich\data\TankTurretTexture.paa",
 		"the_fourth_reich\data\TankTrackTexture.paa",
-		"the_fourth_reich\data\TankTrackTexture.paa"
-		
+		"the_fourth_reich\data\TankTrackTexture.paa"		
 	};
 	class TransportItems
 	{
@@ -56,9 +53,10 @@ class Nazi_MBT_Kuma: I_MBT_03_BASE_F
 	{
 		
 	};
-	class EventHandlers {
+	class EventHandlers 
+	{
 		init = "if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
-};
+	};
 };
 class Nazi_AAA: B_APC_Tracked_01_AA_F
 {

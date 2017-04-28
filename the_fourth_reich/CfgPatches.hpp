@@ -27,8 +27,12 @@ class CfgPatches
 			"SS_Trooper_EXP",
 			"SS_Trooper_MM",
 			"SS_Trooper_BR",
-			"SS_Commander"
-
+			"SS_Commander",
+			"Nazi_Orca",
+			"Nazi_Orca_Armed",
+			"Nazi_MBT_Kuma",
+			"Nazi_AAA",
+			"SS_Blitz"
 		}; 
         weapons[] = 
 		{

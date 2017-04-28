@@ -5,17 +5,15 @@
 	Description: CfgAircraft.hpp
 */
 
-
-
 class O_Heli_Light_02_F;
 class O_Heli_Light_02_unarmed_F;
 
 class Nazi_Orca: O_Heli_Light_02_unarmed_F 
-		{
+{
     displayName = "Nazi Orca";
 	faction = "the_fourth_reich";
     hiddenSelectionsTextures[] = {"the_fourth_reich\Data\Nazi_orca.paa"};
-	 class TransportItems 
+	class TransportItems 
 	{
 
 	};
@@ -31,9 +29,9 @@ class Nazi_Orca: O_Heli_Light_02_unarmed_F
 	{
 		
 	};
-	};
-    class Nazi_Orca_Armed : O_Heli_Light_02_F 
-	{
+};
+class Nazi_Orca_Armed : O_Heli_Light_02_F 
+{
     displayName = "Nazi Orca Armed";
 	faction = "the_fourth_reich";
     hiddenSelectionsTextures[] = {"the_fourth_reich\Data\Nazi_orca.paa"};
@@ -53,5 +51,5 @@ class Nazi_Orca: O_Heli_Light_02_unarmed_F
 	{
 		
 	};
-	};
+};
 
