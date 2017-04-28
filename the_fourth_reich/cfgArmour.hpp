@@ -5,7 +5,7 @@
 	Description: CfgArmour.hpp
 */
 
-/*
+
 
 class I_MBT_03_BASE_F;
 class B_APC_Tracked_01_AA_F;
@@ -31,13 +31,14 @@ class Nazi_MBT_Kuma: I_MBT_03_BASE_F
 	};
 	hiddenSelectionsTextures[] = 
 	{
-		"Enveh\data\TankBodyTexture.paa",
-		"Enveh\data\TankTurretTexture.paa",
-		"Enveh\data\TankTurretMGTexture.paa",
-		"Enveh\data\TankTurretTexture.paa",
-		"Enveh\data\TankTurretTexture.paa",
-		"Enveh\data\TankTrackTexture.paa",
-		"Enveh\data\TankTrackTexture.paa"
+		"the_fourth_reich\data\TankBodyTexture.paa",
+		"the_fourth_reich\data\TankTurretTexture.paa",
+		"the_fourth_reich\data\TankTurretMGTexture.paa",
+		"the_fourth_reich\data\TankTurretTexture.paa",
+		"the_fourth_reich\data\TankTurretTexture.paa",
+		"the_fourth_reich\data\TankTrackTexture.paa",
+		"the_fourth_reich\data\TankTrackTexture.paa"
+		
 	};
 	class TransportItems
 	{
@@ -55,6 +56,9 @@ class Nazi_MBT_Kuma: I_MBT_03_BASE_F
 	{
 		
 	};
+	class EventHandlers {
+		init = "if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+};
 };
 class Nazi_AAA: B_APC_Tracked_01_AA_F
 {
@@ -72,9 +76,9 @@ class Nazi_AAA: B_APC_Tracked_01_AA_F
 	};
 	hiddenSelectionsTextures[]=	
 	{
-		"\Enveh\Data\nazi_aaa_body.paa",
-		"\Enveh\Data\MBT_body.paa",
-		"\Enveh\Data\Nazi_AA_Tower.paa"
+		"\the_fourth_reich\Data\nazi_aaa_body.paa",
+		"\the_fourth_reich\Data\MBT_body.paa",
+		"\the_fourth_reich\Data\Nazi_AA_Tower.paa"
 	};		
 	class TransportWeapons
 	{
@@ -89,6 +93,7 @@ class Nazi_AAA: B_APC_Tracked_01_AA_F
 		
 	};
 };
+
 class SS_Blitz: I_MRAP_03_F
 {
 	scope=2;
@@ -101,8 +106,8 @@ class SS_Blitz: I_MRAP_03_F
 	vehicleClass="Car";
 	hiddenSelectionsTextures[]=
 	{
-		"\Enveh\Data\SS_Striker.paa",
-		"\Enveh\Data\SS_Turret.paa"
+		"\the_fourth_reich\Data\SS_Striker.paa",
+		"\the_fourth_reich\Data\SS_Turret.paa"
 	};
 	class TransportWeapons
 	{
@@ -118,4 +123,3 @@ class SS_Blitz: I_MRAP_03_F
 	};
 };
 
-*/
