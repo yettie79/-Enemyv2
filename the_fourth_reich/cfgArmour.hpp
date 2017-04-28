@@ -63,7 +63,7 @@
 		
 	};
 };
-		class SS_Blitz: I_MRAP_03_F
+	class SS_Blitz: I_MRAP_03_F
 	{
 		scope=2;
 		_generalMacro = "I_MRAP_03_F";
@@ -74,7 +74,7 @@
 		side=0;
 		vehicleClass="Car";
 		hiddenSelectionsTextures[]={"\Enveh\Data\SS_Striker.paa", "\Enveh\Data\SS_Turret.paa"};
-			class TransportWeapons
+	class TransportWeapons
 	{
 	
 	};
