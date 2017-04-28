@@ -8,4 +8,6 @@
 class CfgVehicles 
 { 
 	#include "CfgUnits.hpp"
+	#include "cfgAircraft.hpp"
+	#include "cfgArmour.hpp"
 };
