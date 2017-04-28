@@ -5,17 +5,38 @@
 	Description: CfgAircraft.hpp
 */
 
-/*
 
-class B_Heli_Transport_01_camo_F;
 
-// Transport Helos
-class SOR_B_Heli_Transport_01_camo_F : B_Heli_Transport_01_camo_F
-{
-//	editorCategory = "SOR_Cat_Faction_D";
-//	editorSubcategory = "SOR_SubCat_Aircraft";
-//	vehicleclass = "SOR_Aircraft";
-//	faction = SOR_Faction_D;
+class O_Heli_Light_02_F;
+class O_Heli_Light_02_unarmed_F;
+
+class Nazi_Orca: O_Heli_Light_02_unarmed_F 
+		{
+    displayName = "Nazi Orca";
+	faction = "the_fourth_reich";
+    hiddenSelectionsTextures[] = {"the_fourth_reich\Data\Nazi_orca.paa"};
+	 class TransportItems 
+	{
+
+	};
+	class TransportWeapons
+	{
+
+	};
+	class TransportMagazines
+	{
+
+	};
+	class TransportBackpacks
+	{
+		
+	};
+	};
+    class Nazi_Orca_Armed : O_Heli_Light_02_F 
+	{
+    displayName = "Nazi Orca Armed";
+	faction = "the_fourth_reich";
+    hiddenSelectionsTextures[] = {"the_fourth_reich\Data\Nazi_orca.paa"};
 	class TransportItems 
 	{
 
@@ -32,6 +53,5 @@ class SOR_B_Heli_Transport_01_camo_F : B_Heli_Transport_01_camo_F
 	{
 		
 	};
-};
+	};
 
-*/
