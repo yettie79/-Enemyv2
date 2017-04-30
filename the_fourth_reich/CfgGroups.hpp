@@ -62,6 +62,13 @@ class CfgGroups
 						rank = "CORPORAL";
 						position[] = {15,-15,0};
 					};
+						class Unit6
+					{
+						side = 0;
+						vehicle = "Reich_mm";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
 
 				};
 				class the_fourth_reich_SS_FT
